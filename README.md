@@ -2,8 +2,11 @@
 Softsquirrels really cool and super-duper efficient CHIP-8 implentation for Windows.
 
 ## Usage
-1. Download.
-2. Run `.\sschip8 <PATH TO .ch8 FILE>` in cmd
+1. [Download](https://github.com/Squirrelcoding/sschip8/releases/).
+2. Run `.\sschip8 <PATH TO .ch8 FILE>` in cmd or Powershell
+
+## v1.0.1
+- fixed a bug.
 
 ### Differences between other implementations
 - There ~~may~~ will be a lot of bugs

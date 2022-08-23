@@ -14,7 +14,7 @@ impl CPU {
 
     #[cfg(not(feature = "show_commands"))]
     pub fn update(&mut self) {
-        print!("{esc}[2J{esc}[1;1H", esc = 27 as char);
+        print!("\x1B[2J\x1B[1;1H");
         for (i, item) in self.buf.iter_mut().enumerate() {
             if i != 0 && (i - 1) % (WIDTH as usize) == 0 {
                 println!();
