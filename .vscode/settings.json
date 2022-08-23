@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.cargo.features": [
+        "show_commands",
+        "simulate_frequency"
+    ]
+}

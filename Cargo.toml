@@ -1,0 +1,15 @@
+[package]
+name = "sschip8"
+authors = ["Squirrelcoding"]
+version = "0.1.0"
+edition = "2021"
+description = "Softsquirrels really cool and super-duper efficient CHIP-8 implentation for Windows."
+homepage = "https://softsquirrel.net/"
+
+[dependencies]
+rand = "0.8.5"
+winapi = {version = "0.3.9", features = ["winuser", "utilapiset"]}
+
+[features]
+show_commands = []
+simulate_frequency = []
